@@ -1,0 +1,218 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #333333, #2F4858);
+  background-attachment: fixed;
+}
+
+
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #132D3C;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+div.contenido {
+  width: 60%;
+  margin: 30px auto 0 auto;
+  font-size: 24px;
+  color: white;
+}
+
+span.datosUsuario {
+  color: yellowgreen;
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10px auto;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  font-weight: 100;
+}
+
+h2.contCreado {
+  color: #ffffff;
+  text-decoration: underline !important;
+}
+
+div.campo {
+  margin-bottom: 20px;
+}
+
+div.contenedor form {
+  width: 33.3%;
+  margin: 0 auto;
+}
+
+div.campo label {
+  width: 300px;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .5px;
+  color: white;
+}
+
+div.campo input {
+  height: 30px;
+  width: 220px;
+  padding: 10px;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2.5px solid #0099BD;
+  padding: 20px 15px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.25s;
+  font-size: 18px;
+}
+
+div.campo input:focus {
+  width: 300px;
+  border-color: #007C4D;
+}
+
+div.botonMaldito {
+  text-align: center;
+  width: 300px;
+}
+
+input.btnAgregar {
+  margin-top: 20px;
+  background: none;
+  border: 2px solid #007C4D;
+  border-radius: 25px;
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 15px;
+  width: 100px;
+  height: 50px;
+  transition: 0.25s;
+}
+
+input.btnAgregar:hover {
+  background-color: #007C4D;
+  cursor: pointer;
+  width: 120px;
+}
+
+div.existentes {
+  padding: 20px;
+  background-color: #132D3C;
+}
+
+div.contenido.existentes {
+  background-color: #132D3C;
+}
+
+div.contenido.existentes table {
+  width: 100%;
+  font-family: geneva;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+div.existentes table thead {
+  background-color: #3f51b5;
+}
+
+div.existentes table thead th {
+  padding: 10px 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+div.existentes table tbody tr {
+  background-color: #007c30;
+}
+
+div.existentes table tbody tr:nth-child(even) {
+  background-color: #007C4D;
+}
+
+div.existentes table a {
+  background-color: #eeff51;
+  padding: 5px 10px;
+  display: block;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+div.existentes table td {
+  width: 20%;
+  padding: 10px 5px;
+  line-height: 20px;
+  color: white;
+  font-size: 17px;
+
+}
+
+div.existentes h2 {
+  margin-bottom: 20px;
+}
+
+div.existentes p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+td.borrar a {
+  background-color: red !important;
+}
+
+a.volver {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/*ICONOS*/
+
+i.fa-check {
+  color: greenyellow;
+  text-align: center;
+  font-size: 50px;
+}
+
+i.fa-reply {
+  color: white;
+}
